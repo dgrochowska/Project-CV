@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(230, 218, 206);
+  /* padding-right: 5%; */
+}
+
+nav ol {
+  max-width: 1420px;
+  margin: 0 auto;
+  list-style: none;
+}
+nav ol li {
+  float: right;
+}
+
+nav ol li a {
+  line-height: 70px;
+  text-decoration: none;
+  padding: 0 35px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: black;
+  border-right: 2px solid rgb(172, 161, 151);
+}
+
+nav ol li:nth-child(1) a {
+  border-style: none;
+}
+
+section {
+  background-color: white;
+  padding: 5% 20%;
+}
+/* Sekcja witaj */
+main > section:first-child {
+  padding-top: 20%;
+  min-height: 80%;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* Sekcja o mnie */
+.welcome {
+}
+
+img {
+  width: 15%;
+  margin: 20px 10px;
+  border-radius: 100%;
+}
+
+div.border {
+  height: 30%;
+  width: 70%;
+  background-color: rgb(172, 161, 151);
+}
