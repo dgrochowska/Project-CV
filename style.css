@@ -79,13 +79,17 @@ h1 {
   margin: 20px 0;
 }
 
+a {
+  color: black;
+}
+
 div img {
   width: 210px;
   margin: 20px 30px 100px 30px;
   border-radius: 100%;
 }
 
-div.border {
+div.photo {
   height: 50vh;
   min-height: 400px;
   /* width: max-content; */
@@ -94,45 +98,33 @@ div.border {
   box-shadow: 0 0 20px grey;
 }
 
-.github,
-.linkedin,
-.email,
-.phone {
+.link-icon {
   width: 25px;
   height: 25px;
   margin: 15px;
 }
 
-div.border ul {
+.photo ul {
   display: flex;
   justify-content: center;
   list-style: none;
   background-color: white;
 }
-.experience {
-  margin: 20px auto;
-  width: 60%;
-  min-width: 1420px;
-  height: 50vh;
-}
+
 h2 {
   font-size: 30px;
 }
 
-.experience li {
+.experience li,
+.certificates li {
   padding-top: 20px;
 }
 
+.experience,
 .projects,
 .certificates {
   margin: 10px auto;
-  width: 60%;
-  min-width: 1420px;
-  height: 50vh;
-}
-
-.certificates li {
-  padding-top: 20px;
+  width: 80%;
 }
 
 .resume {
@@ -145,6 +137,7 @@ h2 {
 footer {
   background-color: rgb(172, 161, 151);
   text-align: center;
-  padding: 15px;
   font-size: 20px;
 }
+
+/* @media (max-width ) */
